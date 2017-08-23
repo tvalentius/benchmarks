@@ -4,9 +4,12 @@
 ```
 wrk -t12 -d10s -c1000 http://localhost:1337
 
+```
 
-Python 2.7.10 (Bare)
 
+### Python 2.7.10 (Bare)
+
+```
 12 threads and 1000 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency     0.94ms  657.67us   7.13ms   85.41%
@@ -15,9 +18,11 @@ Python 2.7.10 (Bare)
   Socket errors: connect 757, read 5321, write 7, timeout 0
 Requests/sec:    431.67
 Transfer/sec:     53.54KB
+```
 
-Python 2.7.10 + Flask 0.12.2
+### Python 2.7.10 + Flask 0.12.2
 
+```
 12 threads and 1000 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency   157.87ms   56.94ms 619.02ms   94.05%
@@ -26,9 +31,11 @@ Python 2.7.10 + Flask 0.12.2
   Socket errors: connect 757, read 342, write 0, timeout 0
 Requests/sec:    799.68
 Transfer/sec:    128.89KB
+```
 
-NodeJS 6.11.0 (Bare)
+### NodeJS 6.11.0 (Bare)
 
+```
 12 threads and 1000 connections
   Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency    15.41ms    3.48ms 351.07ms   94.75%
@@ -37,9 +44,11 @@ NodeJS 6.11.0 (Bare)
   Socket errors: connect 757, read 49, write 0, timeout 0
 Requests/sec:  15451.29
 Transfer/sec:      2.25MB
+```
 
-NodeJS 6.11.0 + Express 4.15
+### NodeJS 6.11.0 + Express 4.15
 
+```
 12 threads and 1000 connections
 Thread Stats   Avg      Stdev     Max   +/- Stdev
     Latency    44.12ms   16.56ms 257.37ms   88.55%
