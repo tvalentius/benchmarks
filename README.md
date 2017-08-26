@@ -1,4 +1,6 @@
-## Python VS Node VS ...(TBA)
+## Tools
+
+WRK : [NPM](https://www.npmjs.com/package/wrk)
 
 
 ```
@@ -6,6 +8,14 @@ wrk -t12 -d10s -c1000 http://localhost:1337
 
 ```
 
+## Benchmarked Language + Framework
+
+- Python (2.7.10) - [Docs](https://docs.python.org/2/)
+- Python + Flask (0.12.2) - [Docs](http://flask.pocoo.org/docs/0.12/)
+- NodeJS (6.11.0) - [Docs](https://nodejs.org/dist/latest-v6.x/docs/api/)
+- NodeJS + Express (4.15) - [Docs](http://expressjs.com/en/4x/api.html)
+
+## Results
 
 ### Python 2.7.10 (Bare)
 
