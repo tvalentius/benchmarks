@@ -1,12 +1,3 @@
-## Tools
-
-WRK : [NPM](https://www.npmjs.com/package/wrk)
-
-
-```
-wrk -t12 -d10s -c1000 http://localhost:1337
-
-```
 
 ## Benchmarked Language + Framework
 
@@ -14,6 +5,15 @@ wrk -t12 -d10s -c1000 http://localhost:1337
 - Python + Flask (0.12.2) - [Docs](http://flask.pocoo.org/docs/0.12/)
 - NodeJS (6.11.0) - [Docs](https://nodejs.org/dist/latest-v6.x/docs/api/)
 - NodeJS + Express (4.15) - [Docs](http://expressjs.com/en/4x/api.html)
+
+## Tools
+
+WRK : [NPM](https://www.npmjs.com/package/wrk)
+
+```
+wrk -t12 -d10s -c1000 http://localhost:1337
+
+```
 
 ## Results
 
