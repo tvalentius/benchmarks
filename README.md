@@ -5,6 +5,8 @@
 - Python + Flask (0.12.2) - [Docs](http://flask.pocoo.org/docs/0.12/)
 - NodeJS (6.11.0) - [Docs](https://nodejs.org/dist/latest-v6.x/docs/api/)
 - NodeJS + Express (4.15) - [Docs](http://expressjs.com/en/4x/api.html)
+- Go (1.9) - [Docs](https://golang.org/doc/)
+- Go + Iris (8.3.4) - [Docs](https://iris-go.com/)
 
 ## Tools
 
@@ -67,4 +69,32 @@ Thread Stats   Avg      Stdev     Max   +/- Stdev
   Socket errors: connect 757, read 165, write 5, timeout 0
 Requests/sec:   5196.13
 Transfer/sec:      1.06MB
+```
+
+### Go 1.9 (Bare)
+
+```
+12 threads and 1000 connections
+Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    14.17ms    4.95ms  90.52ms   73.40%
+    Req/Sec     3.85k     1.77k   13.73k    80.32%
+
+  459583 requests in 10.05s, 54.79MB read
+  Socket errors: connect 0, read 882, write 1, timeout 0
+Requests/sec:  45733.95
+Transfer/sec:      5.45MB
+```
+
+
+### Go 1.9 + Iris 8.3.4
+
+```
+12 threads and 1000 connections
+Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency    31.91ms   25.18ms 270.52ms   74.02%
+    Req/Sec     2.57k   541.47     6.11k    75.92%
+  306795 requests in 10.09s, 37.16MB read
+  Socket errors: connect 0, read 525, write 41, timeout 0
+Requests/sec:  30391.73
+Transfer/sec:      3.68MB
 ```
