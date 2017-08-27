@@ -8,6 +8,17 @@
 - Go (1.9) - [Docs](https://golang.org/doc/)
 - Go + Iris (8.3.4) - [Docs](https://iris-go.com/)
 
+## Method
+
+### Simple HTTP Server
+- Python VS Node VS Go VS ...
+
+### Numbers (Fibonacci/Prime/etc)
+- TBA
+
+### Text Processing
+- TBA
+
 ## Tools
 
 WRK : [NPM](https://www.npmjs.com/package/wrk)
