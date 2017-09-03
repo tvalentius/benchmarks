@@ -30,7 +30,9 @@ wrk -t12 -d10s -c1000 http://localhost:1337
 
 ## Results
 
-### Python 2.7.10 (Bare)
+### Simple HTTP Server
+
+#### Python 2.7.10 (Bare)
 
 ```
 12 threads and 1000 connections
@@ -43,7 +45,7 @@ Requests/sec:    431.67
 Transfer/sec:     53.54KB
 ```
 
-### Python 2.7.10 + Flask 0.12.2
+#### Python 2.7.10 + Flask 0.12.2
 
 ```
 12 threads and 1000 connections
@@ -56,7 +58,7 @@ Requests/sec:    799.68
 Transfer/sec:    128.89KB
 ```
 
-### NodeJS 6.11.0 (Bare)
+#### NodeJS 6.11.0 (Bare)
 
 ```
 12 threads and 1000 connections
@@ -69,7 +71,7 @@ Requests/sec:  15451.29
 Transfer/sec:      2.25MB
 ```
 
-### NodeJS 6.11.0 + Express 4.15
+#### NodeJS 6.11.0 + Express 4.15
 
 ```
 12 threads and 1000 connections
@@ -82,7 +84,7 @@ Requests/sec:   5196.13
 Transfer/sec:      1.06MB
 ```
 
-### Go 1.9 (Bare)
+#### Go 1.9 (Bare)
 
 ```
 12 threads and 1000 connections
@@ -97,7 +99,7 @@ Transfer/sec:      5.45MB
 ```
 
 
-### Go 1.9 + Iris 8.3.4
+#### Go 1.9 + Iris 8.3.4
 
 ```
 12 threads and 1000 connections
