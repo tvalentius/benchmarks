@@ -111,3 +111,29 @@ Thread Stats   Avg      Stdev     Max   +/- Stdev
 Requests/sec:  30391.73
 Transfer/sec:      3.68MB
 ```
+
+#### PHP 5.5.27 (Bare)
+
+```
+12 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     2.18ms    5.36ms 156.90ms   92.89%
+    Req/Sec   393.43    481.07     2.00k    83.67%
+  9235 requests in 10.07s, 1.06MB read
+  Socket errors: connect 757, read 9803, write 0, timeout 0
+Requests/sec:    916.65
+Transfer/sec:    107.42KB
+```
+
+#### PHP 5.5.27 + Symfony 3.3.8
+
+```
+12 threads and 1000 connections
+  Thread Stats   Avg      Stdev     Max   +/- Stdev
+    Latency     1.05s   569.22ms   1.91s    63.64%
+    Req/Sec     5.88      2.70    10.00     67.24%
+  58 requests in 10.08s, 16.37KB read
+  Socket errors: connect 757, read 234, write 0, timeout 47
+Requests/sec:      5.75
+Transfer/sec:      1.62KB
+```
