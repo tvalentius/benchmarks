@@ -15,10 +15,7 @@
 ### Simple HTTP Server
 - Python VS Node VS Go VS PHP VS...
 
-### Numbers (Fibonacci/Prime/etc)
-- TBA
-
-### Text Processing
+### CPU Intensive Task
 - TBA
 
 ## Tools
