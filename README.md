@@ -26,6 +26,12 @@ WRK : [NPM](https://www.npmjs.com/package/wrk)
 wrk -t12 -d10s -c1000 http://localhost:1337
 
 ```
+## Todos
+
+- create a minimalist visualisations
+- add Ruby and .net core in to the list
+- create a blog/medium post
+- ???
 
 ## Results
 
