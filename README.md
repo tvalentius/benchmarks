@@ -9,6 +9,8 @@
 - Go + Iris (8.3.4) - [Docs](https://iris-go.com/)
 - PHP (5.5.27) - [Docs](https://secure.php.net/docs.php)
 - PHP + Symfony (3.3.8) - [Docs](https://symfony.com/doc/current/index.html)
+- .Net Core ?
+- Ruby ?
 
 ## Method
 
