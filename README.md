@@ -11,6 +11,7 @@
 - PHP + Symfony (3.3.8) - [Docs](https://symfony.com/doc/current/index.html)
 - .Net Core ?
 - Ruby ?
+- Rust ?
 
 ## Method
 
