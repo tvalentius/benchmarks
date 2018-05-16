@@ -16,6 +16,7 @@
 - C++ ?
 - Java ?
 - HaXe ?
+- Erlang ?
 
 ## Method
 
