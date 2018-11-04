@@ -44,7 +44,6 @@ wrk -t12 -d10s -c1000 http://localhost:1337
 ## Todos
 
 - create a minimalist visualisations ( D3JS ? )
-- add Ruby and .net core in to the list
 - create a blog/medium post
 - Database Integration ?
 - ???
