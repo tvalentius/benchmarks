@@ -18,9 +18,16 @@
 - HaXe ?
 - Erlang ?
 
+## Machine
+
+- MacBook Pro (Early 2015)
+- 2,7 GHz Intel Core i5
+- Memory 16 GB 1867 MHz DDR3
+
 ## Method
 
 ### Simple HTTP Server
+- Threads 12, Durations 10s, Connections 1000
 - Python VS Node VS Go VS PHP VS...
 
 ### CPU Intensive Task
